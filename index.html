@@ -1,28 +1,27 @@
 
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PoE: Archnemesis | Recipe Tracker</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-    <script src="js/manifest.js" defer></script>
-    <script src="js/vendor.js" defer></script>
-    <script src="js/app.js" defer></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="css/app.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PoE: Archnemesis | Recipe Tracker</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <script src="js/manifest.js" defer></script>
+        <script src="js/vendor.js" defer></script>
+        <script src="js/app.js" defer></script>
+        <link href="css/app.css" rel="stylesheet">
+        <script src="https://ka-f.fontawesome.com/releases/v5.15.4/js/free.min.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
     <body>
         <div id="app">
             <div class="columns" style="min-height: 80vh;">
-                <div class="column is-10 is-offset-1">
-                    <section class="section" v-cloak>
-                            <recipe-tracker :recipes="[]" :hash-data="[]"></recipe-tracker>
-                    </section>
-                </div>
+                <section class="section" v-cloak>
+                    <recipe-tracker></recipe-tracker>
+                </section>
             </div>
         </div>
     </body>
